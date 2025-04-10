@@ -10,4 +10,9 @@ Created on 09/04/2025 20:58
 Version 1.0
 */
 public class ContohObject {
+
+    public String printText(){
+        return "OK Tidak NULL";
+    }
+
 }
