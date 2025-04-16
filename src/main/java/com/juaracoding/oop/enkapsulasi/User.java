@@ -1,4 +1,4 @@
-package com.juaracoding.oop;
+package com.juaracoding.oop.enkapsulasi;
 
 import java.time.LocalDate;
 
@@ -8,18 +8,7 @@ public class User {
     private String nama;
     private String alamat;
     private LocalDate tanggalLahir;
-
-    public Integer getUmur(){
-        return LocalDate.now().getYear();
-    }
-
-    public LocalDate getTanggalLahir() {
-        return tanggalLahir;
-    }
-
-    public void setTanggalLahir(LocalDate tanggalLahir) {
-        this.tanggalLahir = tanggalLahir;
-    }
+    private String email;
 
     public Long getId() {
         return id;
@@ -43,5 +32,21 @@ public class User {
 
     public void setAlamat(String alamat) {
         this.alamat = alamat;
+    }
+
+    public LocalDate getTanggalLahir() {
+        return tanggalLahir;
+    }
+
+    public void setTanggalLahir(LocalDate tanggalLahir) {
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
