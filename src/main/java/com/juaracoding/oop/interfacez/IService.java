@@ -3,7 +3,6 @@ package com.juaracoding.oop.interfacez;
 import java.util.List;
 
 public interface IService<T> {
-
     public void insert(T t);//001-010
     public void update(Long id , T t);//011-020
     public void delete(Long id);//021-030

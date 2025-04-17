@@ -121,7 +121,7 @@ public class MenghitungLuasSegitiga {
         contohObject=(contohObject==null)?new ContohObject():contohObject;
         int intK=0;
         Integer intL=null;
-        System.out.println(contohObject.printText());
+//        System.out.println(contohObject.printText());
 
         if(((5==5) || (2!=2)) && (1<0)){
 
