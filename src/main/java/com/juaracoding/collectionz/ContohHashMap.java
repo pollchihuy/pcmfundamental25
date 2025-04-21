@@ -32,7 +32,5 @@ public class ContohHashMap {
 //            "jumlah":20
 //            "harga":200000.0
 //        }
-
-
     }
 }
